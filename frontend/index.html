@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeloxPDF - Master Your Documents</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">V</div>
+                <span>Velox<span style="color: var(--primary-color)">PDF</span></span>
+            </a>
+
+            <div class="nav-links hidden-mobile">
+                <a href="index.html?cat=organize" class="nav-link"><i data-lucide="layers" width="16"></i> Organize</a>
+                <a href="index.html?cat=convert-to" class="nav-link"><i data-lucide="file-text" width="16"></i>
+                    Convert</a>
+                <a href="index.html?cat=security" class="nav-link"><i data-lucide="shield" width="16"></i> Security</a>
+            </div>
+
+            <a href="upload.html" class="btn btn-primary">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">
+                <i data-lucide="sparkles" width="16"></i> Redefining PDF Management
+            </div>
+            <h1 class="hero-title">
+                Master Your Documents<br>
+                <span class="gradient-text">Without Limits</span>
+            </h1>
+            <p class="hero-subtitle">
+                VeloxPDF provides a powerful suite of tools to merge, split, compress, and convert your files instantly.
+                No registrations.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center;">
+                <a href="#tools" class="btn btn-primary btn-large">
+                    Explore Tools <i data-lucide="arrow-right" width="20"></i>
+                </a>
+                <a href="upload.html" class="btn btn-secondary btn-large">
+                    Quick Upload
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Grid -->
+    <section id="tools" class="container">
+        <h2 id="section-title" class="section-title hidden">Tools</h2>
+        <div id="tools-grid" class="grid">
+            <!-- Injected by JS -->
+        </div>
+    </section>
+
+    </section>
+
+        <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="security.html">Security</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <!-- App Store Buttons Column (No Header, Right Aligned) -->
+                <div class="footer-col" style="flex: 1.5; align-items: flex-end;">
+                     <div class="app-store-btns">
+                        <a href="#" class="store-btn">
+                            <svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true" width="24" height="24">
+                                <path
+                                    d="M3.609 1.814L13.792 12 3.61 22.186a.91.91 0 0 1-.91-.91V2.724a.91.91 0 0 1 .91-.91zM15.343 13.55l5.968 5.969a.952.952 0 0 0 .041.037.915.915 0 0 0 .426.002.906.906 0 0 0 .178-.052c.24-.105.421-.314.498-.567l2.843-16.185-9.954 10.796zm-1.551-1.55l3.295-3.295L6.68 1.968a.904.904 0 0 0-.251-.064.918.918 0 0 0-.083.003h-.005a.89.89 0 0 0-.395.114L13.792 12zm.987 8.163l-2.095-6.611-6.732 6.733c.106.071.23.111.357.111.08 0 .157-.016.229-.044.02-.008.037-.019.056-.029l8.185-2.16z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <div class="store-text">
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="store-btn">
+                            <svg class="store-icon" viewBox="0 0 384 512" aria-hidden="true" width="24" height="24">
+                                <path
+                                    d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 52.3-11.4 69.5-34.3z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <div class="store-text">
+                                <span>Download on the</span>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="language-container">
+                    <button class="lang-btn" id="langBtnFooter">
+                        <i data-lucide="globe" width="16" height="16"></i>
+                        <span>English</span>
+                        <i data-lucide="chevron-down" width="16" height="16"></i>
+                    </button>
+                    <!-- Popup will be injected here by JS -->
+                </div>
+                <div class="copyright">
+                    © 2026 VeloxPDF. Engineered for performance.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
